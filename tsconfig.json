@@ -1,4 +1,9 @@
 {
+  "ts-node": {
+    "emit": true,
+    "compilerHost": true,
+    "transpileOnly": false
+  },
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
