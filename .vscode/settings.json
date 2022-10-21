@@ -3,5 +3,6 @@
   "javascript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.variableTypes.enabled": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 3000
 }
