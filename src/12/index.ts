@@ -7,7 +7,7 @@ type Partial<T> = {
 };
 type PartialRecursive<T> = T extends Record<string, any>
   ? { [P in keyof T]?: PartialRecursive<T[P]> }
-  : [T];
+  : T;
 type test = PartialRecursive<{ a: string; b: { c: string } }>;
 
 type Required<T> = {
